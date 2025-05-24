@@ -15,13 +15,17 @@ Este projeto contém um servidor local para servir o site estático, onde serão
 
 
 
+
 ## :desktop_computer: Como rodar o projeto? ​​
 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Clonar o repositório :cat:
 =======
+=======
+>>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
 
 ### 1. Clonar o repositório
 >>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
@@ -35,7 +39,10 @@ cd <NOME_DA_PASTA_CLONADA>
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
 
 ### 2. Rodar o servidor local
 >>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
@@ -60,7 +67,10 @@ O servidor será iniciado em http://localhost:8000/testes/
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
 
 ### 3. Instalar dependências do projeto
 >>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
@@ -85,7 +95,10 @@ npm install
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
 
 ### 4. Instalar o cypress (caso não esteja instalado) 
 >>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
@@ -108,7 +121,10 @@ npm install cypress --save-dev
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49
 
 ### 5. Executar testes automatizados
 >>>>>>> 0c2dbae3bfd5efe5f457b6fcffb3de6554651e49

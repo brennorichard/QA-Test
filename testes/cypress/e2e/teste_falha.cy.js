@@ -15,7 +15,7 @@ describe('Teste falha proposital: idade menor que 18', () => {
         expect(text).to.contains('Você deve ter pelo menos 18 anos para fazer uma reserva.');
       });
   
-      // Agora tenta verificar se o resultado do orçamento aparece (não deve)
+      // Agora tenta verificar se o resultado do orçamento aparece (não deve aparecer)
       // Espera um texto que não vai aparecer, forçando falha
       cy.get('#resultadoOrcamento').should('contain.text', 'Orçamento total: R$ 0.00');
     });
