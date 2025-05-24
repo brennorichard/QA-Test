@@ -97,13 +97,13 @@ npx cypress open
 
 Na interface do Cypress, selecione as seguintes opções:
 
-- **1** - E2E Testing;
+**1** - E2E Testing;
 
-- **2** - Selecionar o navegador (recomendável: Chrome ou Edge);
+**2** - Selecionar o navegador (recomendável: Chrome ou Edge);
 
-- **3** - Clicar em "Star E2E Testing in...";
+**3** - Clicar em "Star E2E Testing in...";
 
-- **4** - Selecione o teste que deseja executar.
+**4** - Selecione o teste que deseja executar.
 
 Ou, para rodar direto pelo terminal
 
