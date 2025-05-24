@@ -31,7 +31,7 @@ describe('Teste completo - Codex Travel', () => {
     });
 
     //3 - Validação simples do cálculo
-    it('Preenchimento e cálculo simples do orçamento', () => { 
+    it('Preenche e faz cálculo simples do orçamento', () => { 
       cy.get('#valorPassagem').type('1000');
       cy.get('#numeroPessoas').type('2');
       cy.get('#diasHospedagem').type('3');
@@ -41,7 +41,7 @@ describe('Teste completo - Codex Travel', () => {
     });
 
     //4 - Valida se ao inserir determinados valores a saída corresponde com o esperado (9510)
-    it('Preenchimento e cálculo do orçamento com valor esperado', () => { 
+    it('Preenche e calcula o orçamento com valor esperado', () => { 
       cy.get('#valorPassagem').type('1670');
       cy.get('#numeroPessoas').type('3');
       cy.get('#diasHospedagem').type('7');
@@ -53,9 +53,9 @@ describe('Teste completo - Codex Travel', () => {
 
     //5 - Preenchimento e envio do formulário
     it('Preenche o fomulário de contato e envia', () => { 
-      cy.get('#nome').type('Brenno');
+      cy.get('#nome').type('Brenno Rabelo');
       cy.get('#email').type('brenno@tester.com');
-      cy.get('#mensagem').type('Teste de input de mensagem!');
+      cy.get('#mensagem').type('Preenchimento de mensagem do fomrulário de contato');
       cy.get('#contatoForm button[type="submit"]').click();
       cy.on('window:alert', (text) => {
         expect(text).to.contains('Mensagem enviada com sucesso'); //Aguarda exibição da mensagem retornada ao usuário
