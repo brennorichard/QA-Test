@@ -1,14 +1,16 @@
 # Projeto QA - Codex Travel
 
-Este projeto contém um servidor local para servir o site estático e testes automatizados feitos com Cypress.
+Este projeto contém um servidor local para servir o site estático, onde serão executados os testes automatizados feitos com Cypress.
 
 
 
-### Requisitos
+### Requisitos:
 
 - [Python 3 instalado;](https://www.python.org/downloads/)
 - [Node.js e npm instalados;](https://nodejs.org/pt/download)
-- Cypress instalado (via npm);
+- Cypress instalado (via npm).
+
+--------------
 
 
 
@@ -16,65 +18,100 @@ Este projeto contém um servidor local para servir o site estático e testes aut
 
 
 
-### 1. Clonar o repositório
+### 1. Clonar o repositório :cat:
 
 ```bash
 git clone <URL_DO_REPOSITORIO>
 cd <NOME_DA_PASTA_CLONADA>
 ```
 
+-------------------------
 
 
-### 2. Rodar o servidor local
 
-Entre na pasta do servidor e execute:
+### 2. Rodar o servidor local :lock:
+
+Acesse o diretório **\servidor**:
 
 ```bash
-cd QA/servidor
+cd .\servidor
+```
+
+ E execute:
+
+```bash
 python servidor.py
 ```
 
 O servidor será iniciado em http://localhost:8000/testes/
 
+-----------------------
 
 
-### 3. Instalar dependências do projeto
 
-Se ainda não tem o Node.js e npm instalados, instale-os primeiro.
+### 3. Instalar dependências do projeto :arrow_down:
 
-Depois, no diretório **/testes** (onde está o package.json), rode:
+- Abra um **novo terminal**
+
+Acesse o **diretório clonado**:
+
+````bash
+cd <NOME_DA_PASTA_CLONADA>
+````
+
+E execute:
 
 ```bash
 npm install
 ```
 
+-------------
 
 
-### 4. Instalar o cypress (caso não esteja instalado) 
 
-Caso o Cypress ainda não esteja instalado, rode o seguinte comando **também no diretório /testes**:
+### 4. Instalar o cypress (caso não esteja instalado) :arrow_down:
+
+- Acesse o diretório **Testes**:
+
+````bash
+cd .\testes
+````
+
+Caso o Cypress ainda não esteja instalado, rode o seguinte comando **no diretório \testes**:
 
 ```bash
 npm install cypress --save-dev
 ```
 
+----------------
 
 
-### 5. Executar testes automatizados
 
-Com o servidor local em execução, abra o Cypress com:
+### 5. Executar testes automatizados :arrows_counterclockwise:
+
+- Ainda no diretório **\testes** abra o Cypress com:
 
 ```bash
 npx cypress open
 ```
 
-Na interface que abrir, selecione os testes na pasta QA/testes para rodar.
+Na interface do Cypress, selecione as seguintes opções:
 
-Ou, para rodar direto pelo terminal:
+- **1** - E2E Testing;
+
+- **2** - Selecionar o navegador (recomendável: Chrome ou Edge);
+
+- **3** - Clicar em "Star E2E Testing in...";
+
+- **4** - Selecione o teste que deseja executar.
+
+Ou, para rodar direto pelo terminal
 
 ```bash
 npx cypress run
 ```
+
+-------------------
 
 
 
