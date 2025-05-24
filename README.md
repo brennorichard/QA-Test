@@ -12,7 +12,9 @@ Este projeto contém um servidor local para servir o site estático e testes aut
 
 
 
+
 ## :desktop_computer: Como rodar o projeto? ​​
+
 
 
 
@@ -22,6 +24,7 @@ Este projeto contém um servidor local para servir o site estático e testes aut
 git clone <URL_DO_REPOSITORIO>
 cd <NOME_DA_PASTA_CLONADA>
 ```
+
 
 
 
@@ -38,6 +41,7 @@ O servidor será iniciado em http://localhost:8000/testes/
 
 
 
+
 ### 3. Instalar dependências do projeto
 
 Se ainda não tem o Node.js e npm instalados, instale-os primeiro.
@@ -50,6 +54,7 @@ npm install
 
 
 
+
 ### 4. Instalar o cypress (caso não esteja instalado) 
 
 Caso o Cypress ainda não esteja instalado, rode o seguinte comando **também no diretório /testes**:
@@ -57,6 +62,7 @@ Caso o Cypress ainda não esteja instalado, rode o seguinte comando **também no
 ```bash
 npm install cypress --save-dev
 ```
+
 
 
 
