@@ -8,7 +8,9 @@ Este projeto contém um servidor local para servir o site estático, onde serão
 
 - [Python 3 instalado;](https://www.python.org/downloads/)
 - [Node.js e npm instalados;](https://nodejs.org/pt/download)
+- Utilizar IDE ou executar via terminal;
 - Cypress instalado (via npm).
+
 
 --------------
 
